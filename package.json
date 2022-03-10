@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "lerna publish --conventional-commits"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouduidui/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ouduidui/eslint-config/issues"
+  },
+  "homepage": "https://github.com/ouduidui/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "lerna": "^4.0.0"
+  }
+}
