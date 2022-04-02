@@ -1,6 +1,6 @@
 {
   "name": "@ouduidui/eslint-config-ts",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -13,7 +13,7 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@ouduidui/eslint-config-basic": "^0.0.2",
+    "@ouduidui/eslint-config-basic": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
     "@typescript-eslint/parser": "^5.17.0"
   },
