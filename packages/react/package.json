@@ -1,6 +1,6 @@
 {
   "name": "@ouduidui/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -13,7 +13,7 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@ouduidui/eslint-config-ts": "^0.1.0",
+    "@ouduidui/eslint-config-ts": "^0.1.1",
     "eslint-plugin-react": "^7.29.4"
   },
   "devDependencies": {
