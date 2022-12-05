@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/ouduidui/eslint-config/compare/v0.1.1...v0.2.0) (2022-12-05)
+
+
+### Features
+
+* add max-len rule ([098dfab](https://github.com/ouduidui/eslint-config/commit/098dfabb5310c281408be583527335237f74a27c))
+
+
+
+
+
 ## [0.1.1](https://github.com/ouduidui/eslint-config/compare/v0.1.0...v0.1.1) (2022-04-10)
 
 **Note:** Version bump only for package @ouduidui/eslint-config-basic
