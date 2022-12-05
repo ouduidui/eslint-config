@@ -130,6 +130,7 @@ module.exports = {
 
     // Common
     semi: ["error", "never"],
+    "max-len": ["error", { code: 120 }],
     curly: ["error", "multi-or-nest", "consistent"],
     quotes: ["error", "single"],
     "quote-props": ["error", "consistent-as-needed"],
