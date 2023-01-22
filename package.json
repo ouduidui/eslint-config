@@ -10,15 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/ouduidui/eslint-config.git"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "prettier",
+    "eslint-config",
+    "eslint-config-prettier"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ouduidui/eslint-config/issues"
   },
   "homepage": "https://github.com/ouduidui/eslint-config#readme",
   "devDependencies": {
     "eslint": "^8.12.0",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "prettier": "^2.8.3"
   }
 }

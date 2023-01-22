@@ -5,12 +5,14 @@ module.exports = {
     node: true,
   },
   extends: [
+    "prettier",
+    "plugin:prettier/recommended",
     "standard",
     "plugin:import/recommended",
     "plugin:eslint-comments/recommended",
     "plugin:jsonc/recommended-with-jsonc",
     "plugin:yml/standard",
-    "plugin:markdown/recommended",
+    "plugin:markdown/recommended"
   ],
   ignorePatterns: [
     ".cache",
@@ -21,7 +23,7 @@ module.exports = {
     "public",
     "temp",
   ],
-  plugins: ["html", "unicorn"],
+  plugins: ["prettier", "html", "unicorn", "eslint-config-prettier"],
   settings: {
     "import/resolver": {
       node: { extensions: [".js", ".mjs", ".ts", ".d.ts"] },
@@ -121,6 +123,8 @@ module.exports = {
     },
   ],
   rules: {
+    "prettier/prettier": "warn",
+    
     // import
     "import/order": "error",
     "import/first": "error",
@@ -130,7 +134,6 @@ module.exports = {
 
     // Common
     semi: ["error", "never"],
-    "max-len": ["error", { code: 120 }],
     curly: ["error", "multi-or-nest", "consistent"],
     quotes: ["error", "single"],
     "quote-props": ["error", "consistent-as-needed"],

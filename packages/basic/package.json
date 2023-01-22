@@ -16,24 +16,30 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-config-standard": "17.0.0-1",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard": "17.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsonc": "^2.2.1",
-    "eslint-plugin-markdown": "^2.2.1",
-    "eslint-plugin-n": "^14.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-unicorn": "^42.0.0",
-    "eslint-plugin-yml": "^0.14.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsonc": "^2.6.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "^45.0.2",
+    "eslint-plugin-yml": "^1.4.0",
     "jsonc-eslint-parser": "^2.1.0",
-    "yaml-eslint-parser": "^0.5.0"
+    "yaml-eslint-parser": "^1.1.0"
   },
   "devDependencies": {
-    "eslint": "^8.12.0"
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "prettier": {
+    "max-len": 120
   },
   "gitHead": "6b51b1ede15c4d116bd2ef95939815319585b7f5"
 }
