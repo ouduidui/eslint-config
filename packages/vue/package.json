@@ -1,6 +1,6 @@
 {
   "name": "@ouduidui/eslint-config-vue",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -10,7 +10,7 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@ouduidui/eslint-config-ts": "^0.2.0",
+    "@ouduidui/eslint-config-ts": "^0.3.0",
     "eslint-plugin-vue": "^9.9.0"
   },
   "devDependencies": {

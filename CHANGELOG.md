@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/ouduidui/eslint-config/compare/v0.2.0...v0.3.0) (2023-01-22)
+
+
+### Features
+
+* add prettier ([c67a40a](https://github.com/ouduidui/eslint-config/commit/c67a40a2330d4d5b8941f56abbd3a95d4638e4dc))
+
+
+
+
+
 # [0.2.0](https://github.com/ouduidui/eslint-config/compare/v0.1.1...v0.2.0) (2022-12-05)
 
 
